@@ -1,0 +1,177 @@
+.menu_sub{
+  display: none;
+  background-color: white;
+  width: 95%;
+  margin: auto;
+  z-index: 555;
+}
+.menu_sub_wrap{
+  display: flex;
+  justify-content: center; 
+  padding: 45px 180px;
+}
+.menu_sub_wrap ul{
+  text-align: center;
+  flex: 1;
+  border-left: 1px solid #ccc;
+}
+.menu_sub_wrap ul:nth-of-type(6){
+  border-right: 1px solid #ccc;
+}
+.menu_sub_wrap h4{
+    font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.menu_sub_wrap li{
+
+}
+.menu_sub_wrap a{
+  color: #555;
+  line-height: 2;
+}
+.menu_sub_wrap a:hover{
+  color: red;
+}
+
+/*ham menu*/
+.ham_menu{
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 500;
+}
+.ham_menu_wrap{
+  display: flex;
+  height: 100%;
+  position: relative;
+  
+}
+.ham_menu_wrap .left_img{
+  width: 33%;
+  height: 100%;
+  background-image: url(../img/ham_left.jpg);
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+ 
+}
+.ham_menu_wrap .left_img img{
+ 
+}
+.ham_menu_wrap .right_menu{
+ width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ham_menu_wrap .right_menu > div{
+  width: 33.33333%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ham_menu_wrap .right_menu div:hover{
+  background-color: #86c312 !important;;
+}
+.ham_menu_wrap .right_menu div:hover a{
+  color: white !important;;
+}
+.ham_menu_wrap .right_menu div:hover h2{
+  color: white !important;;
+}
+.ham_menu_wrap .right_menu > div:nth-of-type(odd){
+background: #f5f1e2
+}
+.ham_menu_wrap .right_menu > div:nth-of-type(even){
+background-color: #e9e5d7
+}
+.right_menu_img{
+  width: 100%;
+  height: 41px;
+ 
+}
+.box1 .right_menu_img{
+  background: url(../img/offham01.png) no-repeat center;
+}
+.box1:hover .right_menu_img{
+  background: url(../img/ham01.png) no-repeat center;
+}
+.box2 .right_menu_img{
+  background: url(../img/offham02.png) no-repeat center;
+}
+.box2:hover .right_menu_img{
+  background: url(../img/ham02.png) no-repeat center;
+}
+.box3 .right_menu_img{
+  background: url(../img/offham03.png) no-repeat center;
+}
+.box3:hover .right_menu_img{
+  background: url(../img/ham03.png) no-repeat center;
+}
+.box4 .right_menu_img{
+  background: url(../img/offham04.png) no-repeat center;
+}
+.box4:hover .right_menu_img{
+  background: url(../img/ham04.png) no-repeat center;
+}
+.box5 .right_menu_img{
+  background: url(../img/offham05.png) no-repeat center;
+}
+.box5:hover .right_menu_img{
+  background: url(../img/ham05.png) no-repeat center;
+}
+.box6 .right_menu_img{
+  background: url(../img/offham06.png) no-repeat center;
+}
+.box6:hover .right_menu_img{
+  background: url(../img/ham06.png) no-repeat center;
+}
+.ham_menu_wrap .right_menu h2{
+  font-size: 23px;
+  font-weight: 900;
+  margin: 30px 0;
+}
+.ham_menu_wrap .right_menu ul{
+text-align: center;
+}
+.ham_menu_wrap .right_menu li{
+  
+}
+.ham_menu_wrap .right_menu li:hover{
+  border-bottom: 1px solid white;
+}
+.ham_menu_wrap .right_menu a{
+  color: #555;
+  font-size: 17px;
+  line-height: 2;
+}
+
+.ham_menu_close{
+  position: absolute;
+   right: 20px;
+   top: 20px;
+   width: 70px;
+   height: 70px;
+   background-color: #222222;
+   padding: 20px;
+   box-sizing: border-box;
+  cursor: pointer;
+ }
+ .close_bar{
+   height: 2px;
+   width: 100%;
+   background: white;
+ }
+ .close_bar:nth-of-type(1){
+   transform: translateY(14px) rotate(45deg);
+  
+   
+ }
+ .close_bar:nth-of-type(2){
+   transform:translateY(12px) rotate(-45deg)
+ }

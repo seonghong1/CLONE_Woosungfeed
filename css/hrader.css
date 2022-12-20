@@ -1,0 +1,137 @@
+#header {
+  width: 100%;
+  position: fixed;
+  z-index: 500;
+  }
+  #header .inner {
+    height: 80px;
+    margin: 30px auto 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    box-sizing: border-box;
+  }
+  #header .inner h1 {
+    width: 220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid white;
+  }
+  #header .inner h1 a {
+    color: white;
+    background-image: url(../img/logo1.png);
+    display: block;
+    font-size: 0px;
+    width: 70%;
+    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #header .inner .menu {
+    
+  }
+  #header .inner .menu ul {
+    display: flex;
+    gap: 50px;
+  }
+
+  #header .inner .menu ul li {
+    
+  }
+  #header .inner .menu ul li a {
+    color: white;
+    font-weight: 550;
+    font-size:17px;
+}
+  #header .inner .gnb {
+    display: flex;
+    height: 100%
+  }
+  #header .inner .gnb ul {
+    display: flex;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+  }
+  #header .inner .gnb ul li {
+
+  }
+  #header .inner .gnb ul li:nth-child(2) {
+    border-left: 1px solid white;
+    padding-left: 15px;
+    height: 14px;
+    line-height: 14px;
+  }
+  #header .inner .gnb ul li a {
+    color: white;
+    font-size: 12px
+  }
+
+  #header .inner .gnb .hammenu {
+    display: flex;
+    align-items: center;
+  }
+  #header .inner .gnb .hammenu a {
+    width: 30px;
+    height: 20px;
+    margin: 0 30px;
+    border: 3px solid white;
+    display: block;
+    border-left: transparent;
+    border-right: transparent;
+    position: relative;
+  }
+#header .inner .gnb .hammenu a::before{
+  content: "";
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  top: calc(50% - 1.5px);
+  background: white;
+}
+
+
+
+  /*header hover*/
+
+#header.on .inner{
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  background-color: white;
+
+}
+#header.on .inner{
+  background-color: white;
+}
+#header.on .inner h1 a{
+  background-image: url(../img/logo3.png);
+}
+#header.on .inner .menu ul li a{
+  color: #222;
+}
+#header.on .inner .gnb ul{
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+#header.on .inner .gnb ul li a{
+  color: gray
+}
+#header.on .inner .gnb .hammenu a{
+  border-top: 3px solid gray;
+   border-bottom: 3px solid gray;
+}
+#header.on .inner .gnb .hammenu a::before{
+  background-color: gray;
+}
+  
+  
+  

@@ -1,0 +1,82 @@
+#footer {
+  background-color: #dcdcdc;
+  color: #5D5D5D;
+  
+  }
+   #footer .top {
+     padding: 40px 100px 50px 100px;
+     display: flex;
+     position: relative;
+
+  }
+  #footer .top:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+   #footer .top h1 {
+    font-size: 0px;
+     background-image: url(../img/foot_logo.png);
+     height: 50px;
+     width: 170px;
+     background-repeat: no-repeat;
+     background-size: contain;
+  }
+   #footer .top .text {
+    padding-left: 60px;
+     line-height: 1.6
+  }
+   #footer .top .text .move {
+    
+  }
+   #footer .top .text .move a {
+    color: #5D5D5D;
+    font-weight: 600;
+}
+   #footer .top .text .box {
+    
+  }
+   #footer .top .text .box p {
+    font-weight: 600;
+  }
+   #footer .top > a {
+    position: absolute;
+     display: block;
+     font-size: 18px;
+     width: 250px;
+     height: 55px;
+     line-height: 55px;
+     border: 1px solid #BDBDBD;
+     border-radius: 50px;
+     right: 0;
+     padding-left: 25px;
+     box-sizing: border-box;
+     margin-right: 100px;
+     color: #5D5D5D;
+     
+  }
+#footer .top > a:before{
+  content: "";
+  width: 8px;
+  height: 8px;
+  border: 3px solid;
+  display: block;
+  position: absolute;
+  right: 30px;
+  border-right: transparent;
+  border-top: transparent;
+  transform: rotate(-45deg);
+  top: 20px;
+}
+   #footer .bottom {
+     padding: 30px 30px 30px 320px;
+
+  }
+   #footer .bottom p {
+    
+  }

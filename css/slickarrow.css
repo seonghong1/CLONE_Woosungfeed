@@ -1,0 +1,26 @@
+ .slick-arrow{
+    bottom: -50px;
+    top: initial;
+    z-index: 5;
+  }
+  .slick-prev{
+    left: 50px;
+  }
+  .slick-prev::before{
+    content: "← ";
+    font-family: initial;
+    font-size: 50px;
+    color: white;
+    
+  }
+
+  .slick-next{
+    left: 130px;
+  }
+  .slick-next::before{
+    content: "→";
+    font-size: 50px;
+    font-family: initial;
+    color: white;
+    z-index: 9999;
+  } 
